@@ -4,13 +4,13 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Victor Pineda, Ph.D.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I am a data scientist looking for an opportunity to contribute to a great team.
+- I was trained in pharmacology, neuroscience, molecular biology, and genetics. I spent a good chunk of my working life as a research scientist trying to glean insights and understanding in the fields of neurodegenerative disease, learning and memory, and organismal aging.
 
-What else do you need?
 
-### my history
+In my spare time
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- Enjoying the outdoor offerings of the Pacific Northwest - hiking, cycling, snowboarding, among other thing.
+- Building up my data science chops by continually learning - crafting new D.S. projects, learning new skills, techniques, algorithms, and being a part of the python and machine learning community in Seattle through meetups and networking.
