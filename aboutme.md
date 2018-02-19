@@ -1,10 +1,10 @@
 ---
-layout:page
-title:Switching Careers - my story
+layout: page
+title: Switching Careers - my story
 subtitle:
 ---
 
-### Victor Pineda, Ph.D.
+Victor Pineda, Ph.D.
 
 - I am a data scientist looking for an opportunity to contribute to a great team.
 - I was trained in pharmacology, neuroscience, molecular biology, and genetics. I spent a good chunk of my working life as a research scientist trying to glean insights and understanding in the fields of neurodegenerative disease, learning and memory, and organismal aging.
