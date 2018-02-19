@@ -14,17 +14,17 @@ baseurl:""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Victor V. Pineda - Data Scientist
+title:Victor V. Pineda - Data Scientist
 
 # Short description of your site
-description: Data Science Projects and Musings
+description:Data Science Projects and Musings
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me:"aboutme"
-  Github Repos: "http://github.com/pineda-vv"
+  Github Repos:"http://github.com/pineda-vv"
 
   # Author's home: "http://deanattali.com"
 

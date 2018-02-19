@@ -1,7 +1,7 @@
 ---
 layout:page
-title: Switching Careers - my story
-subtitle:
+title:Switching Careers - my story
+subtitle:Scientist to Data Scientist
 ---
 
 Victor Pineda, Ph.D.
