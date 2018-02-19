@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Switching Careers - my story
+title: Victor V. Pineda
 subtitle: Scientist to Data Scientist
 ---
 
