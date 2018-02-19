@@ -14,10 +14,10 @@ baseurl:""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title:Victor V. Pineda - Data Scientist
+title: Victor V. Pineda - Data Scientist
 
 # Short description of your site
-description:Data Science Projects and Musings
+description: Data Science Projects and Musings
 
 # --- Navigation bar options --- #
 
@@ -134,11 +134,11 @@ title-separator:"-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone:"America/Vancouver"
-markdown:kramdown
-highlighter:rouge
-permalink:/:year-:month-:day-:title/
-paginate:5
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink:/: year-:month-:day-:title/
+paginate: 5
 
 kramdown:
   input:GFM
