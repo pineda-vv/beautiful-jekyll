@@ -1,7 +1,7 @@
 ---
 layout:page
 title:About me
-subtitle:42
+subtitle:Switching Careers - my story
 ---
 
 Victor Pineda, Ph.D.
