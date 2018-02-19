@@ -23,8 +23,8 @@ description: Data Science Projects and Musings
 
 # List of links in the navigation bar
 navbar-links:
-  About Me:"aboutme"
-  Github Repos:"http://github.com/pineda-vv"
+  About Me: "aboutme"
+  Github Repos: "http://github.com/pineda-vv"
 
   # Author's home: "http://deanattali.com"
 
