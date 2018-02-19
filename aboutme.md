@@ -1,5 +1,5 @@
 ---
-layout: page
+layout:page
 title: Switching Careers - my story
 subtitle:
 ---
