@@ -25,7 +25,7 @@ description: Data Science
 navbar-links:
   About Me: "aboutme"
   Data Science Portfolio: "portfolio"
-  Github Repos: "http://www.github.com/pineda-vv"
+  Github Repo: "http://www.github.com/pineda-vv"
   # Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
