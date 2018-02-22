@@ -24,7 +24,7 @@ description: Data Science
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Data Science Portfolio: "https://pineda-vv.github.io/portfolio"
+  Data Science Portfolio: "https://pineda-vv.github.io/portfolio/"
   Github Repos: "http://www.github.com/pineda-vv"
   # Author's home: "http://deanattali.com"
 
