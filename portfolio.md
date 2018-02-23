@@ -18,6 +18,7 @@ bigimg: /img/cape_lookout.jpg
 * **Summarry** - I took two completely unrelated currency dataset - the Philippine Peso/USD exchange
 rate and the Bitcoin Price - and analyzed their fluctuations over time. I built an ARIMA model for each data set and validated each model's forecasting performance. Details can be found [here](https://github.com/pineda-vv/bitcoin_timeseries)
 ![BTC Forecast](img/confidence.png){:class="img-responsive"}
+
 #### **Recipe recommender - Implicit and Explicit Ratings**
 * **Tools used** - Python, Beautiful Soup, Selenium, MongoDB, AWS EC2, PySpark, t-SNE, Latent Dirichlet Allocation, Non-negative Matrix Factorization, Alternating Least Squares (ALS), NLTK
 * **Primary algorithm** - Spark's ALternating Least Squares (ALS)
