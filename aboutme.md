@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Scientist
-bigimg: img/po_lin.jpg
+bigimg: img/rainier.jpg
 ---
 
 ### **My Background**
