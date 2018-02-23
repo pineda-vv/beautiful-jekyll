@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Data Scientist
-bigimg: img/rainier.jpg
+title: Who am I
 ---
 
 ### **My Background**
