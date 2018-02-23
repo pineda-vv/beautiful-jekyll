@@ -16,7 +16,7 @@ All projects:
 * **Primary algorithm** - Autoregressive Integrated Moving Average (ARIMA) model.
 * **Summarry** - I took two completely unrelated currency dataset - the Philippine Peso/USD exchange
 rate and the Bitcoin Price - and analyzed their fluctuations over time. I built an ARIMA model for each data set and validated each model's forecasting performance. Details can be found [here](https://github.com/pineda-vv/bitcoin_timeseries)
-![](img/confidence.png)
+![](https://github.com/pineda-vv/pineda-vv.github.io/blob/master/img/confidence.png)
 ---
 **Recipe recommender - Implicit and Explicit Ratings**
 * **Tools used** - Python, Beautiful Soup, Selenium, MongoDB, AWS EC2, PySpark, t-SNE, Latent Dirichlet Allocation, Non-negative Matrix Factorization, Alternating Least Squares (ALS), NLP
