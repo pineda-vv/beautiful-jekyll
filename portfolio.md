@@ -31,3 +31,22 @@ rate and the Bitcoin Price - and analyzed their fluctuations over time. I built 
 ![gene interaction graph](img/metab_with_labels.png){:class="img-responsive"}
 
 ### **Group/Class Case Studies**
+#### **Fraud detection system**
+* **Tools used** - Python, Flask
+* **Primary algorithm** - Random Forest Classifier
+* **Summary** - built a classifier model to detect fraudulent postings for an e-commerce event showcase company. Our team built a robust RFC model, used cross-validation to optimize and evaluate the model's performance, and chose appropriate probability thresholds for flagging possible fraud. The model was deployed using a dashboard and a simulated real-time data stream was screened. We used each postings fraud probability score to determine if any actionable response is required - to have a human follow up with the posting or, to immediately shut down the posting.
+
+#### **Movie Recommender**
+* **Tools used** - Python, PySpark, Spark MLLib
+* **Primary algorithm** - Spark Alternating Least Squares (ALS) for collaborative filtering
+* **Summary** - Using the MovieLens dataset, our team built a recommender using collaborative filtering. We implemented a basic mathematical algorithm to take user and item bias into account. This was also used as solution for users or items  that were not present in the training set. We also presented a few solutions to the cold-start problem of recommending an item to a new user.
+
+#### **Churn prediction for a ride-share company**
+* **Tools used** - Python, pandas, numpy, sci-kit learn.
+* **Primary algorithm** Gradient Boosted Classifier.
+* **Summary** - We took ride-share data to predict churn. Most of the initial exploratory data analysis (EDA) included data clean-up, some feature engineering, and creating churn/not churn labels for the dataset. We tested different models but in the end, our group went with a gradient boosting classifier algorithm which we optimized using grid-search CV, and evaluated using hold-out cross-validation. We used the model's precision and recall on the test data as our performance indicators and to set the threshold to use depending on what the model's intended use.
+
+#### **Linear Regression Case Study**
+* **Tools used** - Python, pandas, numpy, sci-kit learn.
+* **Primary algorithm** - Linear Regression
+* **Summary** - Predicting future sales at a farm equipment auction house. Using data from previous auctions, we used linear regression algorithms to build a model that predicts future auction prices. First exposure to data transformation to optimize the performance of a regression model.
