@@ -21,20 +21,20 @@ rate and the Bitcoin Price - and analyzed their fluctuations over time. I built 
 
 #### **Recipe recommender - Implicit and Explicit Ratings**
 * **Tools used** - Python, Beautiful Soup, Selenium, MongoDB, AWS EC2, PySpark, t-SNE, Latent Dirichlet Allocation, Non-negative Matrix Factorization, Alternating Least Squares (ALS), NLTK
-* **Primary algorithm** - Spark's ALternating Least Squares (ALS)
+* **Primary algorithm** - Collaborative Filtering using Spark's Alternating Least Squares (ALS)
 * **Summary** - Using data I scraped from two popular recipe websites, I used Spark's Collaborative Filtering algorithm (ALS) to build two recipe recommender systems. With data from the first website, I used the explicit ratings that users left for each unique recipe to build the model. From the second site, I derived implicit ratings using text sentiment analysis from user comments. More details can be found [here](https://github.com/pineda-vv/allrecipe_recommender) (explicit ratings) and [here](https://github.com/pineda-vv/Data-Science-Projects/tree/master/recipe_project) (implicit ratings).
 ![3D LDA gif](img/animated_lda.gif){:class="img-responsive"}
 
 #### **Creating Gene Networks using NLP**
 * **Tools used** - Python, NLTK, Non-negative Matrix Factorization (NMF), Latent Dirichlet Allocation (LDA), Networkx, Postgres, AWS EC2.
-* **Summary** - My goal for this project was to create a gene association network that required no prior knowledge of biology. I used only the abstracts of scientific papers to create the gene-pairing and then used NMF-clustering of the abstract text to identify groups of similar articles. I built a Postgres SQL database with this information and created a piece of code that can use a single gene input to return a graph of genes associated with the input as well as a list of related papers.  More information can be found [here](https://github.com/pineda-vv/Creating-gene-networks-using-NLP)
+* **Summary** - My goal for this project was to create a gene association network that required no prior knowledge of biology. I used only the abstracts of scientific papers to create the gene-pairing and then used NMF-clustering of the abstracts' text to identify cluster similar articles. I built a Postgres SQL database with this information and created a piece of code that can use a single gene input to return a graph of genes associated with the input as well as a list of related papers.  More information can be found [here](https://github.com/pineda-vv/Creating-gene-networks-using-NLP)
 ![gene interaction graph](img/metab_with_labels.png){:class="img-responsive"}
 
 ### **Group/Class Case Studies**
 #### **Fraud detection system**
 * **Tools used** - Python, Flask
 * **Primary algorithm** - Random Forest Classifier
-* **Summary** - built a classifier model to detect fraudulent postings for an e-commerce event showcase company. Our team built a robust RFC model, used cross-validation to optimize and evaluate the model's performance, and chose appropriate probability thresholds for flagging possible fraud. The model was deployed using a dashboard and a simulated real-time data stream was screened. We used each postings fraud probability score to determine if any actionable response is required - to have a human follow up with the posting or, to immediately shut down the posting.
+* **Summary** - Our team built a classifier model to detect fraudulent postings for an e-commerce event showcase company. We chose an RFC model, used grid-search to optimize and cross-validation to evaluate the model's performance. We then chose appropriate probability thresholds for use in flagging possible fraud. The model was deployed using a dashboard and a simulated real-time data stream was subsequently screened. The fraud/not fraud probability score for the new postings was used to determine if any actionable response is required - to have a human follow up with the posting or, to immediately shut down the posting.
 
 #### **Movie Recommender**
 * **Tools used** - Python, PySpark, Spark MLLib
