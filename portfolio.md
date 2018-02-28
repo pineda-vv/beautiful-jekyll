@@ -15,14 +15,14 @@ bigimg: /img/cape_lookout.jpg
 #### **A short time series analysis of currency exchange**
 * **Tools used** - Python, Matplotlib, Statsmodels
 * **Primary algorithm** - Autoregressive Integrated Moving Average (ARIMA) model.
-* **Summarry** - I took two completely unrelated currency dataset - the Philippine Peso/USD exchange
+* **Summary** - I took two completely unrelated currency dataset - the Philippine Peso/USD exchange
 rate and the Bitcoin Price - and analyzed their fluctuations over time. I built an ARIMA model for each data set and validated each model's forecasting performance. Details can be found [here](https://github.com/pineda-vv/bitcoin_timeseries)
 ![BTC Forecast](img/confidence.png){:class="img-responsive"}
 
 #### **Recipe recommender - Implicit and Explicit Ratings**
 * **Tools used** - Python, Beautiful Soup, Selenium, MongoDB, AWS EC2, PySpark, t-SNE, Latent Dirichlet Allocation, Non-negative Matrix Factorization, Alternating Least Squares (ALS), NLTK
 * **Primary algorithm** - Collaborative Filtering using Spark's Alternating Least Squares (ALS)
-* **Summary** - Using data I scraped from two popular recipe websites, I used Spark's Collaborative Filtering algorithm (ALS) to build two recipe recommender systems. With data from the first website, I used the explicit ratings that users left for each unique recipe to build the model. From the second site, I derived implicit ratings using text sentiment analysis from user comments. More details can be found [here](https://github.com/pineda-vv/allrecipe_recommender) (explicit ratings) and [here](https://github.com/pineda-vv/Data-Science-Projects/tree/master/recipe_project) (implicit ratings).
+* **Summary** - Using data I scraped from two popular recipe websites, I used Spark's Collaborative Filtering algorithm (ALS) to build two recipe recommender systems. With data from the first website, I used the explicit ratings that users left for each unique recipe to build the model. From the second site, I derived implicit ratings using text sentiment analysis from user comments. I elaborate upon these differences in these two blog posts - [explicit](link1) or [implicit ratings](link2). Technical details can be found [here](https://github.com/pineda-vv/allrnecipe_recommender) and [here](https://github.com/pineda-vv/Data-Science-Projects/tree/master/recipe_project).
 ![3D LDA gif](img/animated_lda.gif){:class="img-responsive"}
 
 #### **Creating Gene Networks using NLP**
