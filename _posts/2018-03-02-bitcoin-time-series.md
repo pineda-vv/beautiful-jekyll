@@ -402,25 +402,6 @@ for n in range(len(test3)):
     moving.append(z) #update the training data with next time point
 ```
 
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/tsa/tsatools.py:628: RuntimeWarning: overflow encountered in exp
-      newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/tsa/tsatools.py:628: RuntimeWarning: invalid value encountered in divide
-      newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/tsa/tsatools.py:629: RuntimeWarning: overflow encountered in exp
-      tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/tsa/tsatools.py:629: RuntimeWarning: invalid value encountered in divide
-      tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/base/model.py:496: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-      "Check mle_retvals", ConvergenceWarning)
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/base/model.py:496: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-      "Check mle_retvals", ConvergenceWarning)
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/base/model.py:496: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-      "Check mle_retvals", ConvergenceWarning)
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/base/model.py:496: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-      "Check mle_retvals", ConvergenceWarning)
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/base/model.py:496: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-      "Check mle_retvals", ConvergenceWarning)
-
 
 
 ```python
