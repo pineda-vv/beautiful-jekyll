@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Mucking around with ARIMA and Bitcoin price fluctuations
-bigimg: /img/po_lin.jpg
+bigimg: /img/coins.jpg
 tags: [ARIMA, time series, Jupyter notebook]
 ---
 
 
-
+### ARIMA and bitcoin Jupyter Notebook
+* Note that this notebook can also be found [here](https://github.com/pineda-vv/bitcoin_timeseries)
 ```python
 import pandas as pd
 import numpy as np
@@ -25,11 +26,10 @@ import scipy.stats as scs
 %matplotlib inline
 ```
 
-    /Applications/anaconda/lib/python2.7/site-packages/statsmodels/compat/pandas.py:56: FutureWarning: The pandas.core.datetools module is deprecated and will be removed in a future version. Please use the pandas.tseries module instead.
-      from pandas.core import datetools
+  
 
 
-### The bitcoin dollar price data was downloaded from Quandl.  I chose the set from the Bitstamp Exchange
+#### The bitcoin dollar price data was downloaded from Quandl.  I chose the set from the Bitstamp Exchange
 
 
 ```python
@@ -149,7 +149,7 @@ df2.info()
     memory usage: 91.2 KB
 
 
-### Resampled Data for weekly average - used Weighted Price
+#### Resampled Data for weekly average - used Weighted Price
 
 
 ```python
@@ -350,7 +350,7 @@ ax.grid(False)
 ![png](../img/time_series_notebook/output_23_0.png)
 
 
-### Using the ARIMA forecast function - Looking at how the forecast price (untransformed) compares to the truth
+#### Using the ARIMA forecast function - Looking at how the forecast price (untransformed) compares to the truth
 
 
 ```python
@@ -379,7 +379,7 @@ ax.text(28.5, 15600, 'RMSE = 3552.9', fontsize=12)
 ![png](../img/time_series_notebook/output_25_1.png)
 
 
-### Stepwise Forecasting/Retraining ARIMA model
+#### Stepwise Forecasting/Retraining ARIMA model
 * The idea is that most accurate predictions occur in the first few time points past the training set
 * This snippet will forecast only to the next time point
 * Afterwards, the true price for that time point is added back to the series and the ARIMA model is retrained.
@@ -460,7 +460,7 @@ ax.text(28.5, 17600, 'RMSE = 1252.8', fontsize=12)
 ![png](../img/time_series_notebook/output_29_1.png)
 
 
-### Conclusion - ARIMA time series modeling can provide a decent forecasting tool. If the forecasting algorithm is set up so that the model can be continually updated, then the forecasts for the immediate time points are acceptable.  I will revisit this time series model with unseen new data. This particular time series ended in mid-February 2018 and I will wait a few weeks to do the two forecasting analysis again.
+#### Conclusion - ARIMA time series modeling can provide a decent forecasting tool. If the forecasting algorithm is set up so that the model can be continually updated, then the forecasts for the immediate time points are acceptable.  I will revisit this time series model with unseen new data. This particular time series ended in mid-February 2018 and I will wait a few weeks to do the two forecasting analysis again.
 
 
 ```python
