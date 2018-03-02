@@ -26,7 +26,7 @@ import scipy.stats as scs
 %matplotlib inline
 ```
 
-  
+
 
 
 #### The bitcoin dollar price data was downloaded from Quandl.  I chose the set from the Bitstamp Exchange
@@ -246,9 +246,11 @@ plt.savefig('data/bitcoin_acf.png')
 ![png](../img/time_series_notebook/output_17_0.png)
 
 
-### Autocorrelation and partial autocorrelation plots suggests an optimal AR(2) and MA(1) is sufficient with differencing of 1
-### Also performed a training and testing set split of the data. Trained on the first 85% and will validate on the remaining 15% of the series.
-### However,  optimization runs showed that when the (p,d,q) values of (1,2,1) was used we obtained the lowest AIC, BIC scores and best p-values for coeffs
+#### Autocorrelation and partial autocorrelation plots suggests an optimal AR(2) and MA(1) is sufficient with differencing of 1
+
+#### Also performed a training and testing set split of the data. Trained on the first 85% and will validate on the remaining 15% of the series.
+
+#### However,  optimization runs showed that when the (p,d,q) values of (1,2,1) was used we obtained the lowest AIC, BIC scores and best p-values for coeffs
 
 
 ```python
